@@ -1,14 +1,6 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
+ 
   "profile": {
     "name": "typicode"
-  },
-  "phone": {
-  "mobile": "511651461"
-  }
+  } 
 }
