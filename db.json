@@ -32,5 +32,12 @@
                 }
             ]
         }
-    ]
+    ],
+    "test":{
+        "child":{
+            "grand-child":{
+                "value":true
+            }
+        }
+    }
 }
