@@ -1,41 +1,36 @@
 {
- "natters": 
- [ 
-  {
-       categoryId:434,
-       categoryName:’ Category 1 ,
-       IsActive:true/false,
-       IsEnable:true/false,
-       natters:
-[
-  {
-    natterId:3132,
-    natterType:’popup_message’,
-    Frequency: 5000,
-    isSelected:true/false,
-    messageTitle:”Payment reminder”, 
-    messageText:”Payment due in 2 days”, 
-  },
-{
-    natterId:3133,
-    natterType:’Loud_beep’,
-    Frequency: 5000,
-    isSelected:true/false,
-    messageTitle:N/A, 
-    messageText:N/A, 
-
-  },
-{
-    natterId:3133,
-    natterType:’Text_Message’,
-    Frequency: 5000,
-    isSelected:true/false
-    messageTitle:N/A, 
-    messageText:N/A,  
-  }, 
-]
-   } 
-]
-
- 
+    "natters": [
+        {
+            "categoryId": 434,
+            "categoryName": "Category 1",
+            "IsActive": true,
+            "IsEnable": true,
+            "natters": [
+                {
+                    "natterId": 3132,
+                    "natterType": "popup_message",
+                    "Frequency": 5000,
+                    "isSelected": true,
+                    "messageTitle": "Payment reminder ",
+                    "messageText": "Payment due in 2 days"
+                },
+                {
+                    "natterId": 3133,
+                    "natterType": "Loud_beep",
+                    "Frequency": 5000,
+                    "isSelected": true,
+                    "messageTitle": null,
+                    "messageText": null
+                },
+                {
+                    "natterId": 3133,
+                    "natterType": "Text_Message",
+                    "Frequency": 5000,
+                    "isSelected": true,
+                    "messageTitle": null,
+                    "messageText": null
+                }
+            ]
+        }
+    ]
 }
