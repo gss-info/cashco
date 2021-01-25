@@ -1,41 +1,128 @@
 {
-    "natters": [
+    "natters":   [
         {
-            "categoryId": 434,
-            "categoryName": "Category 1",
-            "IsActive": true,
-            "IsEnable": true,
-            "natters": [
-                {
-                    "natterId": 3132,
-                    "natterType": "popup_message",
-                    "Frequency": 5000,
-                    "isSelected": true,
-                    "messageTitle": "Payment reminder ",
-                    "messageText": "Payment due in 2 days"
-                },
-                {
-                    "natterId": 3133,
-                    "natterType": "Loud_beep",
-                    "Frequency": 5000,
-                    "isSelected": true,
-                    "messageTitle": null,
-                    "messageText": null
-                },
-                {
-                    "natterId": 3133,
-                    "natterType": "Text_Message",
-                    "Frequency": 5000,
-                    "isSelected": true,
-                    "messageTitle": null,
-                    "messageText": null
-                }
-            ]
-        }
-    ],
+          "categoryId": 434,
+          "categoryName": "Category 1",
+          "IsActive": true,
+          "IsEnable": true,
+          "minSelection":2,
+          "natters": [
+            {
+              "natterId": 3132,
+              "natterType": "popup_message",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Pop Up Message Alerts",
+              "messageTitle": "Payment reminder ",
+              "messageText": "Payment due in 2 days"
+            },
+            {
+              "natterId": 3133,
+              "natterType": "Loud_beep",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Loud Beeps",
+              "messageTitle": null,
+              "messageText": null
+            },
+            {
+              "natterId": 3134,
+              "natterType": "Text_Message",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Get Text Messages",
+              "messageTitle": null,
+              "messageText": null
+            }
+          ]
+        },
+        {
+          "categoryId": 435,
+          "categoryName": "Category 2",
+          "IsActive": true,
+          "IsEnable": true,
+          "minSelection":3,
+          "natters": [
+            {
+              "natterId": 3231,
+              "natterType": "popup_message",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Pop Up Message",
+              "messageTitle": "Payment reminder ",
+              "messageText": "Payment due in 2 days"
+            },
+            {
+              "natterId": 3232,
+              "natterType": "Loud_beep",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Loud Beeps",
+              "messageTitle": null,
+              "messageText": null
+            },
+            {
+              "natterId": 3233,
+              "natterType": "Alarm",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Alarm (Ramdom twice per day - during business hours)",
+              "messageTitle": null,
+              "messageText": null
+            },
+            {
+              "natterId": 3234,
+              "natterType": "Text_Message",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Get Text Messages",
+              "messageTitle": null,
+              "messageText": null
+            }
+          ]
+        },
+        {
+          "categoryId": 436,
+          "categoryName": "Category 3",
+          "IsActive": true,
+          "IsEnable": true,
+          "minSelection":4,
+          "natters": [
+            {
+              "natterId": 3331,
+              "natterType": "popup_message",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Pop Up Message Alerts",
+              "messageTitle": "Payment reminder ",
+              "messageText": "Payment due in 2 days"
+            },
+            {
+              "natterId": 3332,
+              "natterType": "Loud_beep",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Loud Beeps",
+              "messageTitle": null,
+              "messageText": null
+            },
+            {
+              "natterId": 3333,
+              "natterType": "Text_Message",
+              "Frequency": 5000,
+              "isSelected": true,
+              "controlLabel":"Get Text Messages",
+              "messageTitle": null,
+              "messageText": null
+            },
+         
+          ]
+        },
+  
+      ],
     "test":{
         "child":{
-            "grand-child":{
+            "sub-child":{
                 "value":true
             }
         }
