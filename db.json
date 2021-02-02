@@ -130,6 +130,12 @@
     "bankNumber": "25434",
     "accountNumber": "91515121314"
   },
+  "currentLoan": {
+    "loanAmount": "$450.00",
+    "currentAmountDue": "$450.00",
+    "loanissuedDate": "April 30, 2020",
+    "payDueAmount": "$0.00"
+  },
   "test": {
     "child": {
       "sub-child": {
