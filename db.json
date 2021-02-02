@@ -117,9 +117,19 @@
             }
          
           ]
-        }
-  
+        } 
       ],
+      "loan_details":[
+        
+         
+      ],
+
+      "userInfo":{
+        "displayName":"test user",
+        "email":"test@cashco",
+        "phone":"53492094754",
+        "Province":"YT"
+      },
     "test":{
         "child":{
             "sub-child":{
