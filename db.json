@@ -135,12 +135,5 @@
     "currentAmountDue": "$450.00",
     "loanissuedDate": "April 30, 2020",
     "payDueAmount": "$0.00"
-  },
-  "test": {
-    "child": {
-      "sub-child": {
-        "value": true
-      }
-    }
   }
 }
